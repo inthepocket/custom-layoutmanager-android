@@ -4,7 +4,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import mobi.inthepocket.research.layoutmanager.R;
+import mobi.inthepocket.customlayoutmanager.R;
+
 
 public abstract class BaseViewHolder extends RecyclerView.ViewHolder
 {

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
-import mobi.inthepocket.research.layoutmanager.R;
+import mobi.inthepocket.customlayoutmanager.R;
 import mobi.inthepocket.customlayoutmanager.enums.LayoutGravity;
 import mobi.inthepocket.customlayoutmanager.enums.SpanCount;
 import mobi.inthepocket.customlayoutmanager.interfaces.FeedItemClickListener;

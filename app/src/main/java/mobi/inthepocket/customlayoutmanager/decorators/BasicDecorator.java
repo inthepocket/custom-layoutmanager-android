@@ -5,7 +5,7 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import mobi.inthepocket.research.layoutmanager.R;
+import mobi.inthepocket.customlayoutmanager.R;
 import mobi.inthepocket.customlayoutmanager.layoutmanagers.AdLayoutManager;
 
 /**

@@ -1,17 +1,14 @@
 package mobi.inthepocket.customlayoutmanager;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 
 import java.util.ArrayList;
 
-import mobi.inthepocket.research.layoutmanager.R;
 import mobi.inthepocket.customlayoutmanager.adapters.BasicAdapter;
 import mobi.inthepocket.customlayoutmanager.decorators.BasicDecorator;
 import mobi.inthepocket.customlayoutmanager.interfaces.FeedItemClickListener;
@@ -36,15 +33,6 @@ public class MainActivity extends AppCompatActivity implements FeedItemClickList
         adLayoutManager = new AdLayoutManager(adapter.getLayoutInfoLookup());
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerview_main);
-        final FloatingActionButton buttonInsert = (FloatingActionButton) findViewById(R.id.button_insert);
-        buttonInsert.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                addItem();
-            }
-        });
 
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(adLayoutManager);
